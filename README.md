@@ -22,3 +22,28 @@ $ conda create -n arjun python=3.9 -y
 $ conda activate arjun
 $ pip install -r requirements.txt
 ```
+
+### Load Arjun Tokenizer
+The Arjun tokenizer can be loaded using the following set of commands:
+
+```python
+from arjun import ArjunTokenizer
+TOKENIZER_PATH = "../resources/vac-arjun-base/"
+tokenizer = ArjunTokenizer.from_pretrained(TOKENIZER_PATH)
+```
+
+### Load Arjun Model
+Building the ARJUN model is straightforward and can be performed using the following set of commands:
+
+```python
+from arjun import ArjunModel
+PRETRAINED_MODEL_PATH = "../resources/vac-arjun-base/"
+model = ArjunModel.from_pretrained(PRETRAINED_MODEL_PATH)
+```
+
+### Run Pre-Training
+To pre-train the Arjun model, use the [Pre-Training Notebook](notebooks/pretrain.ipynb). 
+
+### Fine-Tune on Downstream Tasks
+To fine-tune the Arjun model on downstream tasks, use the [Fine-Tuning Notebook](notebooks/finetune.ipynb). 
+
