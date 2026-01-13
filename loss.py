@@ -9,7 +9,7 @@ def masked_loss(label, pred):
     mask = tf.cast(mask, dtype=loss.dtype)
     loss *= mask
     
-    loss = tf.reduce_sum(loss)/tf.reduce_sum(mask)
+    loss = tf.reduce_sum(loss)/(tf.reduce_sum(mask)+1e-8)
     return loss
 
 
@@ -24,4 +24,4 @@ def masked_accuracy(label, pred):
     
     match = tf.cast(match, dtype=tf.float32)
     mask = tf.cast(mask, dtype=tf.float32)
-    return tf.reduce_sum(match)/tf.reduce_sum(mask)
+    return tf.reduce_sum(match)/(tf.reduce_sum(mask)+1e-8)
