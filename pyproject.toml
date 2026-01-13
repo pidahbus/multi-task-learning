@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arjun-mtl"
+version = "0.1.0"
+description = "A Parameter-Efficient Multi-Objective Pre-Training Framework for Language Models"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+keywords = ["multi-task-learning", "nlp", "transformer", "language-model", "deep-learning", "tensorflow"]
+authors = [
+    {name = "Arjun Team"}
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+dependencies = [
+    "tensorflow==2.11.0",
+    "transformers==4.57.1",
+    "scikit-learn==1.6.1",
+    "pandas==2.3.3",
+    "numpy==1.24.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+    "black>=23.0",
+    "flake8>=6.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/pidahbus/multi-task-learning"
+"Bug Reports" = "https://github.com/pidahbus/multi-task-learning/issues"
+Source = "https://github.com/pidahbus/multi-task-learning"
+
+[tool.setuptools]
+packages = ["arjun"]

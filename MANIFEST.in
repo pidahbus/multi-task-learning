@@ -1,0 +1,6 @@
+include README.md
+include requirements.txt
+include pyproject.toml
+recursive-include arjun *.py
+global-exclude __pycache__
+global-exclude *.py[co]

@@ -18,12 +18,28 @@ Below table are Arjun models pre-trained on multiple monolingual corpus,
 
 ## Arjun Model Card
 
-### Setup
-To run pre-training and fine-tuning scripts, please install the required packages using the following command:
+### Installation
+
+#### Install from PyPI (Coming Soon)
+Once published to PyPI, you can install the package using:
+```bash
+$ pip install arjun-mtl
+```
+
+#### Install from Source
+To install the package from source:
+```bash
+$ git clone https://github.com/pidahbus/multi-task-learning.git
+$ cd multi-task-learning
+$ pip install -e .
+```
+
+#### Development Setup
+For development, create a conda environment and install in editable mode:
 ```bash
 $ conda create -n arjun python=3.9 -y
 $ conda activate arjun
-$ pip install -r requirements.txt
+$ pip install -e .[dev]
 ```
 
 ### Load Arjun Tokenizer

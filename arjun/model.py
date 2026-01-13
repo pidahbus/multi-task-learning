@@ -1,7 +1,7 @@
 import os
 import json
 import tensorflow as tf
-from layers import EmbeddingLayer, PositionalEmbedding, Encoder, Decoder
+from .layers import EmbeddingLayer, PositionalEmbedding, Encoder, Decoder
 from transformers import AutoTokenizer
 
 # get model
