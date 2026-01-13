@@ -7,11 +7,11 @@ Below table are Arjun models pre-trained on multiple monolingual corpus,
 
 | Model Name        | Parameters | Pre-training Corpus |
 |-------------------|------------|---------|
-| Vac-Arjun (Base)    | 69M        | [Vacaspati](https://bangla.iitk.ac.in/Vacaspati.html) |
-| Vac-Arjun (Small)    | 17M        | [Vacaspati](https://bangla.iitk.ac.in/Vacaspati.html) |
-| Indic-BangArjun (Base)    | 69M        | [IndicCorp v2 (Bangla Subset)](https://huggingface.co/datasets/ai4bharat/IndicCorpV2/tree/main/data) |
-| Indic-TamArjun (Base)    | 69M        | [IndicCorp v2 (Tamil Subset)](https://huggingface.co/datasets/ai4bharat/IndicCorpV2/tree/main/data) |
-| Indic-HindArjun (Base)    | 69M        | [IndicCorp v2 (Hindi Subset)](https://huggingface.co/datasets/ai4bharat/IndicCorpV2/tree/main/data) |
+| [Vac-Arjun (Base)](https://drive.google.com/file/d/1uxRO5ngJxm10P4zvWTk7HMJwmWg5xLoY/view?usp=sharing)    | 69M        | [Vacaspati](https://bangla.iitk.ac.in/Vacaspati.html) |
+| [Vac-Arjun (Small)](https://drive.google.com/file/d/11pn8ld03naljH2kEBi4cupIkx8kpXFaf/view?usp=sharing)    | 17M        | [Vacaspati](https://bangla.iitk.ac.in/Vacaspati.html) |
+| [Indic-BangArjun (Base)](https://drive.google.com/file/d/1vewLTVhHprhwSSnkgwV5XRdbeo_o61_m/view?usp=sharing)    | 69M        | [IndicCorp v2 (Bangla Subset)](https://huggingface.co/datasets/ai4bharat/IndicCorpV2/tree/main/data) |
+| [Indic-TamArjun (Base)](https://drive.google.com/file/d/1yT0W8iYW6sy3ZMfgkxTftip_oCbFVKU-/view?usp=sharing)    | 69M        | [IndicCorp v2 (Tamil Subset)](https://huggingface.co/datasets/ai4bharat/IndicCorpV2/tree/main/data) |
+| [Indic-HindArjun (Base)](https://drive.google.com/file/d/10NF126xujkUizq_1yOKnKrTVUsqmgfSU/view?usp=sharing)    | 69M        | [IndicCorp v2 (Hindi Subset)](https://huggingface.co/datasets/ai4bharat/IndicCorpV2/tree/main/data) |
 
 ## Arjun Model Card
 
